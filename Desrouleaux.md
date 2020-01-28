@@ -1,5 +1,5 @@
-#PicoCTF 2018
-###Desrouleaux
+# PicoCTF 2018
+### Desrouleaux
 I was able to solve the first 2 parts of this challenge fairly easily.  I will not cover those, as they have been thoroughly covered by others.  Instead this only deals with the third part of the Desrouleaux challenge:
 
 **What is the number of unique destination ips a file is sent, on average? Needs to be correct to 2 decimal places.**
@@ -7,7 +7,7 @@ I was able to solve the first 2 parts of this challenge fairly easily.  I will n
 I had not idea what was being asked.  I stared at the data, **incidents.json**, for several minutes, but could not understand what was being asked.  I turned to Google, and found out I was not alone.  I found several write ups on how to brute force the solution.  While that worked, I wanted to try to figure this out.  It took about three hours, but I finally came up with something that mad sense to me and earned the flag.  This may or may not make sense to you.
 
 This was the contents of **incidents.json** at the time I solved this challenge:
-` 
+ 
 {
     "tickets": [
         {
@@ -81,6 +81,6 @@ This was the contents of **incidents.json** at the time I solved this challenge:
             "dst_ip": "15.232.103.129"
         }
     ]
-}`
+}
 
-![]{img\desrouleaux.png}
+![](/img/desrouleaux.png)
